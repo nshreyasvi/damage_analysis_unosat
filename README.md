@@ -18,7 +18,7 @@ Other things that can be found out using this method is:
 - Data related to a particular are of disaster is downloaded. This includes:
   1) Digital Elevation Model of the area (in .csv format), before and after the disaster.
   2) .shp file/.osm file for the buildings in the area that have been mapped and whose damage is to be found.
-- Run `python osmreader.py` in order to extract coordinates from .osm file or convert the custom .shp file to .csv format
+- Run `python osm_read.py` in order to extract coordinates from .osm file or convert the custom .shp file to .csv format
 - Make sure the files are named pre_disaster_data.csv and post_disaster_data.csv and building_data.csv after carrying out all the previous steps.
 - Run `python compare_xy.py` and wait for the program to carry out the operation.
 - The results are store in the .txt file that is generated and consists of the coordinate of the buildings, elevation change %age and damage significance.
