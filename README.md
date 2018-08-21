@@ -22,3 +22,4 @@ Other things that can be found out using this method is:
 - Make sure the files are named pre_disaster_data.csv and post_disaster_data.csv and building_data.csv after carrying out all the previous steps.
 - Run `python compare_xy.py` and wait for the program to carry out the operation.
 - The results are store in the .txt file that is generated and consists of the coordinate of the buildings, elevation change %age and damage significance.
+### For faster processing, split the datasets into smaller sections and execute this program in parallel on them.
