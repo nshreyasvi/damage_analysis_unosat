@@ -16,7 +16,9 @@ Other things that can be found out using this method is:
 
 ## Steps to Use
 - Data related to a particular are of disaster is downloaded. This includes:
-  1) Digital Elevation Model of the area (in .csv format), before and after the disaster.
+  1) Digital Elevation Model of the area before and after the disaster.
+   - Data has to be coordinates rounded off up to 5th decimal point.
+   - Named as pre-disaster.asc and post-disaster.asc
   2) .shp file/.osm file for the buildings in the area that have been mapped and whose damage is to be found.
 - Run `python osmread.py` in order to extract coordinates from .osm file or convert the custom .shp file to .csv format
 - Make sure the files are named pre_disaster_data.csv and post_disaster_data.csv and building_data.csv after carrying out all the previous steps.
