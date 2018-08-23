@@ -20,6 +20,10 @@ Other things that can be found out using this method is:
   2) .shp file/.osm file for the buildings in the area that have been mapped and whose damage is to be found.
 - Run `python osmread.py` in order to extract coordinates from .osm file or convert the custom .shp file to .csv format
 - Make sure the files are named pre_disaster_data.csv and post_disaster_data.csv and building_data.csv after carrying out all the previous steps.
-- Run `python compare_xy.py` and wait for the program to carry out the operation.
+- Run `python fast_compare.py` and wait for the program to carry out the operation.
 - The results are store in the .txt file that is generated and consists of the coordinate of the buildings, elevation change %age and damage significance.
-### For faster processing, split the datasets into smaller sections and execute this program in parallel on them.
+
+## Timings:
+For 14,000 coordinate building data file = 5 minutes 4 seconds
+
+## Still being updated (Will be done by 25th August 2018)
