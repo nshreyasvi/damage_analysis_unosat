@@ -1,0 +1,22 @@
+36.19912,37.18672,826    0.44358
+Name: elav, dtype: float64
+36.20386,37.18674,2228   -1.396573
+Name: elav, dtype: float64
+36.20644,37.18677,4836   -0.046374
+Name: elav, dtype: float64
+36.20617,37.18679,6796   -2.742055
+Name: elav, dtype: float64
+36.19879,37.18683,12443    0.273542
+Name: elav, dtype: float64
+36.20049,37.18685,14183    1.115388
+Name: elav, dtype: float64
+36.20259,37.18691,20705    0.409432
+Name: elav, dtype: float64
+36.19835,37.18692,22142   -0.231793
+Name: elav, dtype: float64
+36.20329,37.18692,21592   -0.914368
+Name: elav, dtype: float64
+36.19923,37.18693,23009    1.055748
+Name: elav, dtype: float64
+36.20371,37.18693,22510   -0.034866
+Name: elav, dtype: float64
