@@ -1,8 +1,8 @@
 # Damage Analysis using DEM data (UNOSAT)
 
-**_Organization: UNOSAT (CERN Openlab 2018)
-Supervisor: Lars Bromley
-Student: Shreyasvi Natraj_**
+**_Organization: UNOSAT (CERN Openlab 2018)_**
+**_Supervisor: Lars Bromley_**
+**_Student: Shreyasvi Natraj_**
 
 ## Introduction
 The project revolves around finding the possibility to use elevation data related to a particular city before and after undergoing a specific type of disaster in order to be able to do a damage analysis for the area in an automated way.
@@ -34,7 +34,6 @@ Input file format follows the same format:
 | ------------- | ------------- | ------------- |
 | coordinate 1  | coordinate 1  |    elav 1     |
 | coordinate 2  | coordinate 2  |    elav 2     |
-| ------------- | ------------- | ------------- |
 
 *In case of building data the third column would be replaced with metadata*
 **NOTE: Coordinates of latitude and longitude for all the files have to be rounded up to 5th decimal point for consistent data**
