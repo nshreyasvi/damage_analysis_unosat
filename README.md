@@ -1,7 +1,9 @@
 # Damage Analysis using DEM data (UNOSAT)
 
 **_Organization: UNOSAT (CERN Openlab 2018)_**
+
 **_Supervisor: Lars Bromley_**
+
 **_Student: Shreyasvi Natraj_**
 
 ## Introduction
