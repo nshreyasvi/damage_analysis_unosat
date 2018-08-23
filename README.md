@@ -68,5 +68,4 @@ The program requires a filter value to be set so as to remove elevation changes 
 
 ## Workflow
 
-## Algorithm
 ![alt text](https://github.com/nshreyasvi/damage_analysis_unosat/blob/master/basic_algo/flowchart.png)
