@@ -2,7 +2,7 @@
 
 **_Organization: UNOSAT (CERN Openlab 2018)_**
 
-**_Supervisor: Lars Bromley_**
+**_Supervisor: Lars Bromley, François Grey, Sofia Vallecorsa_**
 
 **_Student: Shreyasvi Natraj_**
 
@@ -67,5 +67,4 @@ The program requires a filter value to be set so as to remove elevation changes 
 ![alt text](https://github.com/nshreyasvi/damage_analysis_unosat/blob/master/basic_algo/algo.png)
 
 ## Workflow
-
 ![alt text](https://github.com/nshreyasvi/damage_analysis_unosat/blob/master/basic_algo/flowchart.png)
