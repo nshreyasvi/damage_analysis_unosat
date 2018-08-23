@@ -1,7 +1,8 @@
 # Damage Analysis using DEM data (UNOSAT)
 
 **_Organization: UNOSAT (CERN Openlab 2018)
-Supervisor: Lars Bromley_**
+Supervisor: Lars Bromley
+Student: Shreyasvi Natraj_**
 
 ## Introduction
 The project revolves around finding the possibility to use elevation data related to a particular city before and after undergoing a specific type of disaster in order to be able to do a damage analysis for the area in an automated way.
@@ -15,7 +16,7 @@ This version consists of a openstreetmap scraper (in case building data is to be
 
 The usage of the code can be done in several ways:
 
-### Preparation of input data**
+### Preparation of input data
 
 **Building Data**
 1) Usage with Openstreetmap:
@@ -29,10 +30,10 @@ The usage of the code can be done in several ways:
 - Elevation data (in xyz file format) can be automatically converted to the required .csv format by running `python pre_proc.py` program over the two DEM xyz files (*Right now for a 16 million coordinates file, it takes 7.5 minutes to process*)
 
 Input file format follows the same format:
-| lat  | long | elav  |
+|     lat       |     long      |     elav      |
 | ------------- | ------------- | ------------- |
-| coordinate 1  | coordinate 1  | elav 1  |
-| coordinate 2  | coordinate 2  | elav 2  |
+| coordinate 1  | coordinate 1  |    elav 1     |
+| coordinate 2  | coordinate 2  |    elav 2     |
 | ------------- | ------------- | ------------- |
 
 *In case of building data the third column would be replaced with metadata*
@@ -47,6 +48,8 @@ Input file format follows the same format:
 - The result file can also be imported to QGIS in order to see the damaged areas.
 
 ## Results:
+*Results were tested for aleppo DEMs*
+
 The elevation change is found in terms of percentage where
 1) If elevation change percentage = -ve, it is increase in elevation at that coordinate point
 2) If elevation change percentage = +ve, but less than the threshold value, it is usually change due to error in input data
