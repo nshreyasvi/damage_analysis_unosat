@@ -30,10 +30,10 @@ The usage of the code can be done in several ways:
 - Elevation data (in xyz file format) can be automatically converted to the required .csv format by running `python pre_proc.py` program over the two DEM xyz files (*Right now for a 16 million coordinates file, it takes 7.5 minutes to process*)
 
 Input file format follows the same format:
-|lat|long|elav|
-| ------------- | ------------- | ------------- |
-|coordinate 1|coordinate 1|elav 1|
-|coordinate 2|coordinate 2|elav 2|
+| lat | long | elav |
+|      :---:   |     :---:    | :---: |
+| coordinate 1 | coordinate 1 | elav1 |
+| coordinate 2 | coordinate 2 | elav2 |
 
 *In case of building data the third column would be replaced with metadata*
 **NOTE: Coordinates of latitude and longitude for all the files have to be rounded up to 5th decimal point for consistent data**
