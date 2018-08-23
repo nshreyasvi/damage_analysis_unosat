@@ -61,3 +61,12 @@ The elevation change is found in terms of percentage where
 
 ## Future Work
 The program requires a filter value to be set so as to remove elevation changes that are caused due to error in DEMs or input data. Upon finding the *sweet spot* for the filter value, a simple if statement can be used in order to remove all the noisy data and only take significant damage from this program.
+
+
+## Flow Chart
+![alt text](https://github.com/nshreyasvi/damage_analysis_unosat/blob/master/basic_algo/algo.png)
+
+## Workflow
+
+## Algorithm
+![alt text](https://github.com/nshreyasvi/damage_analysis_unosat/blob/master/basic_algo/flowchart.png)
