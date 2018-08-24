@@ -1,4 +1,4 @@
-# Damage Analysis using DEM data (UNOSAT)
+# Damage Analysis Using Digital Elevation Model Data and Structure Point Data
 
 **_Organization: UNOSAT (CERN Openlab 2018)_**
 
