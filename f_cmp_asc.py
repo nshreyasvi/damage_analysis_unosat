@@ -13,17 +13,14 @@ num = 0
 
 # Loading .csv files extracted from DEMs and .shp files
 data_pre = pd.read_csv("aleppo_2009.csv", error_bad_lines=False, names=['lat', 'long', 'elav'])
-data_pre.round({'lat': 5, 'long': 5})
 print (data_pre.head())
 print("Pre-Disaster Data Loaded Successfully!")
 
 data_post = pd.read_csv("aleppo_2014.csv", error_bad_lines=False, names=['lat', 'long', 'elav'])
-data_post.round({'lat': 5, 'long': 5})
 print (data_post.head())
 print("Post-Disaster Data Loaded Successfully!")
 
 data_bld = pd.read_csv("building_data_small.csv",error_bad_lines=False)
-data_bld.round(5)
 print (data_bld.head())
 print("Building Data Loaded Successfully")
 
