@@ -55,13 +55,16 @@ os.remove("inter_2.txt")
 
 n = 4
 nfirstlines = []
-with open("inter_3.txt") as f, open("aleppo_2009.csv", "w") as out:
-    for x in xrange(n):
+with open("inter_3.txt") as f, open("aleppo_pre.csv", "w") as out:
+    for x in range(n):
         nfirstlines.append(next(f))
     for line in f:
         line = line[1:]
         out.write(line)
 os.remove("inter_3.txt")
+df = pd.read_csv('aleppo_pre.csv')
+df.to_csv('aleppo_2009.csv', float_format='%.5f')
+os.remove('aleppo_pre.csv')
 
 #For Post Disaster Data:
 infile = "aleppo_2014.asc"
@@ -108,13 +111,16 @@ os.remove('inter_2.txt')
 
 n = 4
 nfirstlines = []
-with open("inter_3.txt") as f, open("aleppo_2014.csv", "w") as out:
-    for x in xrange(n):
+with open("inter_3.txt") as f, open("aleppo_post.csv", "w") as out:
+    for x in range(n):
         nfirstlines.append(next(f))
     for line in f:
         line = line[1:]
         out.write(line)
 os.remove("inter_3.txt")
+df = pd.read_csv('aleppo_post.csv')
+df.to_csv('aleppo_2014.csv', float_format='%.5f')
+os.remove('aleppo_post.csv')
 
 #Execute the other program
-os.system('python fast_compare.py')
+os.system('python f_cmp_asc.py')
