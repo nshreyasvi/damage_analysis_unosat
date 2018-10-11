@@ -59,6 +59,15 @@ The elevation change is found in terms of percentage where
 
 **The value for threshold has to be set up be comparing these results with the ground truth i.e. pre analyzed areas which underwent damage**
 
+Upon uploading the files to QGIS for visualization, the following images shows the building data extracted for the .shp file (in greenish blue colour) and DEM data (in black/purple colour).
+![alt text](https://github.com/nshreyasvi/damage_analysis_unosat/blob/master/basic_algo/results.JPG)
+
+Upon implementation of the algorithm, the number of buildings for which the damage was identified is represented follows (in green color):
+![alt text](https://github.com/nshreyasvi/damage_analysis_unosat/blob/master/basic_algo/results_1.JPG)
+
+On categorizing these buildings based on the percentage elevation change, the following results were obtained where the severity of the disaster can be represented from light to heavy using colors blue-green-yellow-orange-red as show below:
+![alt text](https://github.com/nshreyasvi/damage_analysis_unosat/blob/master/basic_algo/results_2.JPG)
+
 ## Future Work
 The program requires a filter value to be set so as to remove elevation changes that are caused due to error in DEMs or input data. Upon finding the *sweet spot* for the filter value, a simple if statement can be used in order to remove all the noisy data and only take significant damage from this program.
 
@@ -68,3 +77,5 @@ The program requires a filter value to be set so as to remove elevation changes 
 
 ## Workflow
 ![alt text](https://github.com/nshreyasvi/damage_analysis_unosat/blob/master/basic_algo/flowchart.png)
+
+**Full DEMs can be found at: https://goo.gl/4tKZMX**
