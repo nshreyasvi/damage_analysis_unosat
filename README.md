@@ -1,6 +1,6 @@
 # Damage Analysis Using Digital Elevation Model Data and Structure Point Data
 
-[//]: <> (**_Organization: UNOSAT (CERN Openlab 2018)_**)
+[//]: <> (**_Organization: UNOSAT, CERN Openlab 2018_**)
 
 [//]: <> (**_Supervisor: Lars Bromley, François Grey, Sofia Vallecorsa_**)
 
